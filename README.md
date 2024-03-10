@@ -1,3 +1,7 @@
-# sorting-algorithms
+# sorting-algorithms-in-c++
 
-in cpp
+1. insertion sort
+2. selection sort
+3. bubble sort
+4. merge sort
+5. quick sort
