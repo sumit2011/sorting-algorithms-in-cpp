@@ -1,4 +1,7 @@
 // 1. Bubble sort
+#include<iostream>
+using namespace std;
+
 void BubbleSort(int *arr, int length)
 {
     for (int i = 0; i < length - 1; i++)
@@ -13,4 +16,15 @@ void BubbleSort(int *arr, int length)
             }
         }
     }
+}
+
+int main(){
+    int arr[5] = {1,55,3,2,8};
+    BubbleSort(arr, 5);
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+    
+    return 0;
 }
